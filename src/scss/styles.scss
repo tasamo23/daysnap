@@ -1,25 +1,30 @@
 @import "bootstrap/scss/functions";
 
-// Dark mode
-$body-color: #fff;
-$body-bg: #2D3333;
-$primary:#DA2; //0D0,
+// TODO Change to data-driven user-customizable theme
+$color-mode-type: media-query;
 
-// // Light mode
-// $body-color: #000;
-// $body-bg: #EFF;
-// $primary:#C33; //0C3,
+// Dark mode
+$body-color-dark: #f00;
+$body-bg-dark: #2D3333;
+$primary-dark:#DA2; //0D0,
+
+// Light mode
+$body-color: #000;
+$body-bg: #EFF;
+$primary:#0C3; //C33,
+
 
 // Required
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/variables-dark";
 @import "bootstrap/scss/maps";
 @import "bootstrap/scss/mixins";
-@import "bootstrap/scss/utilities";
 @import "bootstrap/scss/root";
-@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/utilities";
 
 // Optional
+// @import "bootstrap/scss/reboot";
+// @import "bootstrap/scss/utilities/api";
 // @import "bootstrap/scss/type";
 // @import "bootstrap/scss/images";
 @import "bootstrap/scss/containers";
@@ -54,9 +59,6 @@ $primary:#DA2; //0D0,
 // @import "bootstrap/scss/helpers";
 
 // Utilities
-@import "bootstrap/scss/utilities/api";
-// @import "bootstrap/scss/variables";
-// @import "bootstrap/scss/variables-dark";
 
 // @import "bootstrap/scss/containers";
 // @import "bootstrap/scss/buttons";
@@ -68,4 +70,3 @@ $primary:#DA2; //0D0,
 // @import "bootstrap/scss/root";
 // @import "bootstrap/scss/helpers";
 // @import "bootstrap/scss/type";
-// @import "bootstrap/scss/functions";

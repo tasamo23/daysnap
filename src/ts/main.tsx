@@ -1,4 +1,4 @@
-// Import our custom CSS
+// Import custom CSS
 import '../scss/styles.scss';
 
 import React from 'react';
