@@ -5,7 +5,7 @@ import path from 'path';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
-  assetsInclude: ['**/*.svg', '**/*.png'],
+  assetsInclude: ['**/*.svg', '**/*.png, **/*.ttf'],
   root: path.resolve(__dirname, 'src'),
   build: {
     outDir: 'dist',
@@ -66,7 +66,9 @@ export default defineConfig({
       },
       workbox: {
         // defining cached files formats
-        globPatterns: ['**/*.{js,ts,tsx,css,html,scss,png,svg,webmanifest}'],
+        globPatterns: [
+          '**/*.{js,ts,tsx,css,html,scss,png,svg,webmanifest,ttf,woff2}',
+        ],
       },
     }),
   ],
