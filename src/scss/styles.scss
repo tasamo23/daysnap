@@ -4,6 +4,7 @@
 $bootstrap-icons-font-src: url("../../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2") format("woff2"), url("../../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff") format("woff");
 @import "bootstrap-icons/font/bootstrap-icons.scss";
 
+@import "font.scss";
 
 // TODO Change to data-driven user-customizable theme
 $color-mode-type: media-query;
@@ -17,51 +18,6 @@ $primary-dark:#DA2; //0D0,
 $body-color: #000;
 $body-bg: #EFF;
 $primary:#0C3; //C33,
-
-@font-face {
-  font-family: 'Comfortaa';
-  src: url('/font/Comfortaa/Comfortaa-VariableFont_wght.ttf') format('truetype') tech('variations'),
-        url('/font/Comfortaa/Comfortaa-VariableFont_wght.ttf') format('truetype-variations');
-  font-weight: 100 1000;
-  font-stretch: 25% 150%;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Bitter';
-  src: url('/font/Bitter/Bitter-VariableFont_wght.ttf') format('truetype') tech('variations'),
-        url('/font/Bitter/Bitter-VariableFont_wght.ttf') format('truetype-variations');
-  font-weight: 100 1000;
-  font-stretch: 25% 150%;
-  font-style:normal;
-}
-
-@font-face {
-  font-family: 'Bitter';
-  src: url('/font/Bitter/Bitter-Italic-VariableFont_wght.ttf') format('truetype') tech('variations'),
-        url('/font/Bitter/Bitter-Italic-VariableFont_wght.ttf') format('truetype-variations');
-  font-weight: 100 1000;
-  font-stretch: 25% 150%;
-  font-style:italic;
-}
-
-@font-face {
-  font-family: 'Exo 2';
-  src: url('/font/Exo_2/Exo2-VariableFont_wght.ttf') format('truetype') tech('variations'),
-        url('/font/Exo_2/Exo2-VariableFont_wght.ttf') format('truetype-variations');
-  font-weight: 100 1000;
-  font-stretch: 25% 150%;
-  font-style:normal;
-}
-
-@font-face {
-  font-family: 'Exo 2';
-  src: url('/font/Exo_2/Exo2-Italic-VariableFont_wght.ttf') format('truetype') tech('variations'),
-        url('/font/Exo_2/Exo2-Italic-VariableFont_wght.ttf') format('truetype-variations');
-  font-weight: 100 1000;
-  font-stretch: 25% 150%;
-  font-style:italic;
-}
 
 h1{
   // font-family: 'Bitter', serif;
