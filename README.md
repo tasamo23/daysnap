@@ -2,7 +2,7 @@
 
 >Capture every day
 
-## Features
+## Planned Features
 
 - Automatic guidance for stabilizing face position and angle using TensorFlow facial recognition
 - Video export and compression in multiple formats
@@ -30,9 +30,3 @@
   - React-SWC
 - TypeScript
 - Sass
-
-### 1.0.0 Features
-
-- Home screen with scrollable image gallery
-- Camera access with image save to gallery
-- Settings page (to be customized) with dark+light mode
